@@ -14,6 +14,9 @@
 		240EACFE1DAEB0E900DFBF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240EACFC1DAEB0E900DFBF99 /* LaunchScreen.storyboard */; };
 		240EAD091DAEB0E900DFBF99 /* FindMyCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240EAD081DAEB0E900DFBF99 /* FindMyCarTests.swift */; };
 		240EAD141DAEB0E900DFBF99 /* FindMyCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240EAD131DAEB0E900DFBF99 /* FindMyCarUITests.swift */; };
+		240EAD241DAF200200DFBF99 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240EAD231DAF200200DFBF99 /* MapViewController.swift */; };
+		240EAD261DAF237F00DFBF99 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240EAD251DAF237F00DFBF99 /* Location.swift */; };
+		24D975EB1DCFFCDC00E17FA9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D975EA1DCFFCDC00E17FA9 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		240EAD0F1DAEB0E900DFBF99 /* FindMyCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240EAD131DAEB0E900DFBF99 /* FindMyCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyCarUITests.swift; sourceTree = "<group>"; };
 		240EAD151DAEB0E900DFBF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240EAD231DAF200200DFBF99 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		240EAD251DAF237F00DFBF99 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		24D975EA1DCFFCDC00E17FA9 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				240EACFA1DAEB0E900DFBF99 /* Assets.xcassets */,
 				240EACFC1DAEB0E900DFBF99 /* LaunchScreen.storyboard */,
 				240EACFF1DAEB0E900DFBF99 /* Info.plist */,
+				240EAD231DAF200200DFBF99 /* MapViewController.swift */,
+				240EAD251DAF237F00DFBF99 /* Location.swift */,
+				24D975EA1DCFFCDC00E17FA9 /* DataManager.swift */,
 			);
 			path = FindMyCar;
 			sourceTree = "<group>";
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				240EACF61DAEB0E900DFBF99 /* ViewController.swift in Sources */,
+				24D975EB1DCFFCDC00E17FA9 /* DataManager.swift in Sources */,
+				240EAD241DAF200200DFBF99 /* MapViewController.swift in Sources */,
+				240EAD261DAF237F00DFBF99 /* Location.swift in Sources */,
 				240EACF41DAEB0E900DFBF99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +494,7 @@
 				240EAD1A1DAEB0E900DFBF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		240EAD1B1DAEB0E900DFBF99 /* Build configuration list for PBXNativeTarget "FindMyCarTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				240EAD1D1DAEB0E900DFBF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		240EAD1E1DAEB0E900DFBF99 /* Build configuration list for PBXNativeTarget "FindMyCarUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				240EAD201DAEB0E900DFBF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
